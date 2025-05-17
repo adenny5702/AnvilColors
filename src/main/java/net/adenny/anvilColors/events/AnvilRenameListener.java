@@ -9,11 +9,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 public class AnvilRenameListener implements Listener
 {
-
     @EventHandler
     public void onAnvilRename(PrepareAnvilEvent event)
     {
-
         ItemStack result =  event.getResult();
 
         if (result == null || !result.hasItemMeta())
@@ -30,7 +28,5 @@ public class AnvilRenameListener implements Listener
             result.setItemMeta(meta);
             event.setResult(result);
         }
-
     }
-
 }
