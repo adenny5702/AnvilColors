@@ -16,7 +16,7 @@ public class AnvilRenameListener implements Listener
 
         ItemStack result =  event.getResult();
 
-        if (result == null)
+        if (result == null || !result.hasItemMeta())
             return;
 
         ItemMeta meta = result.getItemMeta();
