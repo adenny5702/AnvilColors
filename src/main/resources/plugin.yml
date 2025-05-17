@@ -1,0 +1,6 @@
+name: AnvilColors
+version: '1.0.1'
+main: net.adenny.anvilColors.AnvilColors
+api-version: '1.21'
+description: You can now make item names have colors by using Minecraft's color codes.
+author: 'OrnateZombie'
